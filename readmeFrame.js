@@ -10,6 +10,8 @@ ${response.description}
 * [Usage](#usage)
 * [License](#license)
 
+## Installation
+${response.installation}
 
 ## URLs
 1. Deployed URL
@@ -21,6 +23,19 @@ https://${response.url}.github.io/${response.title}/
 
 ## Usage
 ![GitHub Logo]()
+
+
+## Contribution Guidelines
+${response.contributing}
+
+
+## Test Instructions Information
+${response.test}
+
+
+## Questions
+If you have any questions or need any help, feel free to contact me here
+${response.question}
 
 
 ## License

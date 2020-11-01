@@ -13,7 +13,7 @@ const userPrompt = inquirer.prompt([
     {
         type: 'input',
         name: 'title',
-        message: 'What is the README title?'
+        message: 'What is your Project title?'
     },
     {
         type:'input',
@@ -22,19 +22,38 @@ const userPrompt = inquirer.prompt([
     },
     {
         type: 'input',
+        name: 'installation',
+        message: 'Add installation process: '
+    },
+    {
+        type: 'input',
         name: 'url',
         message:'Enter your github ID: '
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Add contributing description for user: '
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: "Provide example how to run the code: "
+    },
+    {
+        type: 'input',
+        name: 'question',
+        message: "Provide your contact info: "
     },
     {
         type: 'list',
         name: 'license',
         message: "Select license type: ",
         choices: ["Apache License", "ISC License", "MIT License", "Public License"]
-    }
+    },
 ]);
 
 const writeFileAsync = util.promisify(fs.writeFile);
-const addLicenseAsync = util.promisify(fs.appendFile);
 
 const generateReadme = async () =>{
     try{
