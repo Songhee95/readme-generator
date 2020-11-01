@@ -24,8 +24,16 @@ const userPrompt = inquirer.prompt([
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-userPrompt
-.then(response => readmeFrame(response))
-.then(result => writeFileAsync('README.md', result))
-.catch(err => console.log(err));
+const generateReadme = async () =>{
+    try{
+        const userInput = await userPrompt;
+        const frameWork = readmeFrame(userInput);
+        const final = await writeFileAsync('README.md', frameWork);
+        return final;
+    }catch{
+        err => {throw (err)}
+    }
+};
+
+generateReadme();
 
