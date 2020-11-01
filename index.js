@@ -43,7 +43,7 @@ const userPrompt = inquirer.prompt([
     {
         type: 'input',
         name: 'question',
-        message: "Provide your contact info: "
+        message: "Provide your e-mail address: "
     },
     {
         type: 'list',

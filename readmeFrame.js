@@ -35,7 +35,8 @@ ${response.test}
 
 ## Questions
 If you have any questions or need any help, feel free to contact me here
-${response.question}
+Github page: [Github](https://github.com/${response.url}/)
+Email: ${response.question}
 
 
 ## License
