@@ -8,7 +8,7 @@ const userPrompt = inquirer.prompt([
     {
         type:'input',
         name:'name',
-        message: "What is your name?"
+        message: "What is your full name?"
     },
     {
         type: 'input',
@@ -39,6 +39,7 @@ const addLicenseAsync = util.promisify(fs.appendFile);
 const generateReadme = async () =>{
     try{
         let userInput = await userPrompt;
+        userInput.name = userInput.name.toUpperCase();
             if (userInput.license == 'Apache License'){
                 userInput.license = licenseArray[0];
             }else if(userInput.license == 'ISC License'){
