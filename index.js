@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const readmeFrame = require('./readmeFrame.js');
-
+const util = require('util');
 
 const userPrompt = inquirer.prompt([
     {
@@ -22,10 +22,10 @@ const userPrompt = inquirer.prompt([
     },
 ]);
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 userPrompt
 .then(response => readmeFrame(response))
-.then(result => fs.writeFile('README.md', result, 'utf-8', err => {
-    if(err) throw err;
-}));
-
+.then(result => writeFileAsync('README.md', result))
+.catch(err => console.log(err));
 
