@@ -32,6 +32,11 @@ const userPrompt = inquirer.prompt([
     },
     {
         type: 'input',
+        name: 'resource',
+        message: 'Add resource links: '
+    },
+    {
+        type: 'input',
         name: 'contributing',
         message: 'Add contributing description for user: '
     },
@@ -54,6 +59,14 @@ const userPrompt = inquirer.prompt([
 ]);
 
 const writeFileAsync = util.promisify(fs.writeFile);
+let resourceContent = value => {
+    value.resource = value.resource.split(',');
+    const links = [];
+    value.resource.map((link) => {
+        links.push(`![GitHub Logo](${link}) <br>`);
+    })
+    value.resource = links;
+} 
 
 const generateReadme = async () =>{
     try{
@@ -68,6 +81,7 @@ const generateReadme = async () =>{
             }else{
                 userInput.license =  licenseArray[3];
             }
+        resourceContent(userInput);
         const frameWork = readmeFrame(userInput);
         const final = await writeFileAsync('README.md', frameWork);
         return final;

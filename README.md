@@ -1,8 +1,8 @@
 
-# your project title (should be same as your project name in github)
+# 
 
 ## Description
-let people knwo what your project can do specifically
+
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,47 +14,47 @@ let people knwo what your project can do specifically
 * [License](#license)
 
 ## Installation
->list specific steps and for line breaks, use <br >and list next steps.
+
 
 ## URLs
 1. Deployed URL: 
-https://enter your github id.github.io/your project title (should be same as your project name in github)/
+https://.github.io//
 
 2. Github Page URL: 
-[Github](https://github.com/enter your github id/your project title (should be same as your project name in github)/)
+[Github](https://github.com///)
 
 
 ## Usage
-![GitHub Logo]()
+![GitHub Logo](sd) <br>,![GitHub Logo](as) <br>,![GitHub Logo](ge) <br>
 
 
 ## Contribution
-to have some documentation on how to get started. If you want to make line breaks, use <br>.
+
 
 
 ## Test
-You can add image or video links for how to run this project.
+
 
 
 ## Questions
 If you have any questions or need any help, feel free to contact me here
-Github page: [Github](https://github.com/enter your github id/)
-Email: email address
+Github page: [Github](https://github.com//)
+Email: 
 
 
 ## License
-Copyright (c) 2020 YOUR NAME
+Copyright (c) 2020 
 
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

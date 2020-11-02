@@ -26,7 +26,7 @@ https://${response.url}.github.io/${response.title}/
 
 
 ## Usage
-![GitHub Logo]()
+${response.resource}
 
 
 ## Contribution
