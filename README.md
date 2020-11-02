@@ -13,9 +13,7 @@ README generator creates professional README.md file automatically. This is main
 * [License](#license)
 
 ## Installation
->npm init -y
-
->npm i inquirer
+>npm init -y\ >npm i inquirer
 
 
 ## URLs
@@ -37,9 +35,7 @@ To use README generator, following below steps after install npm modules require
 2. Open terminal and cd into index.js file. 
 3. Run 
 3. Install npm modules 
-    >npm init -y
-
-    >npm i inquirer
+    >npm init -y\ >npm i inquirer
 4. Type in description for your project.
 
 
