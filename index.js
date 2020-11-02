@@ -67,20 +67,23 @@ let resourceContent = value => {
     })
     value.resource = links;
 } 
+let licensePick = value => {
+    if (value.license == 'Apache License'){
+        value.license = licenseArray[0];
+    }else if(value.license == 'ISC License'){
+        value.license = licenseArray[1];
+    }else if(value.license == 'MIT License'){
+        value.license = licenseArray[2];
+    }else{
+        value.license =  licenseArray[3];
+    }
+}
 
 const generateReadme = async () =>{
     try{
         let userInput = await userPrompt;
         userInput.name = userInput.name.toUpperCase();
-            if (userInput.license == 'Apache License'){
-                userInput.license = licenseArray[0];
-            }else if(userInput.license == 'ISC License'){
-                userInput.license = licenseArray[1];
-            }else if(userInput.license == 'MIT License'){
-                userInput.license = licenseArray[2];
-            }else{
-                userInput.license =  licenseArray[3];
-            }
+        licensePick(userInput);
         resourceContent(userInput);
         const frameWork = readmeFrame(userInput);
         const final = await writeFileAsync('README.md', frameWork);
