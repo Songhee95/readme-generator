@@ -6,18 +6,22 @@ const readmeFrame = response =>
 ${response.description}
 
 ## Table of Contents
+* [Installation](#installation)
 * [URLs](#URLs)
 * [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [Questions](#questions)
 * [License](#license)
 
 ## Installation
 ${response.installation}
 
 ## URLs
-1. Deployed URL
+1. Deployed URL: 
 https://${response.url}.github.io/${response.title}/
 
-2. Github Page URL
+2. Github Page URL: 
 [Github](https://github.com/${response.url}/${response.title}/)
 
 
@@ -25,11 +29,11 @@ https://${response.url}.github.io/${response.title}/
 ![GitHub Logo]()
 
 
-## Contribution Guidelines
+## Contribution
 ${response.contributing}
 
 
-## Test Instructions Information
+## Test
 ${response.test}
 
 
