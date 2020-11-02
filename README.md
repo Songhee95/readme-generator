@@ -35,7 +35,7 @@ To use README generator, following below steps after install npm modules require
 2. Open terminal and cd into index.js file. 
 3. Run 
 3. Install npm modules 
-    >npm init -y ; >npm i inquirer;
+    >npm init -y \n>npm i inquirer
 4. Type in description for your project.
 
 
