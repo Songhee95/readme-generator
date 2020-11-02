@@ -13,7 +13,7 @@ README generator creates professional README.md file automatically. This is main
 * [License](#license)
 
 ## Installation
->npm init -y <br> >npm i inquirer
+>npm init -y <br >npm i inquirer
 
 
 ## URLs
