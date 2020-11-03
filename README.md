@@ -33,7 +33,7 @@ To use README generator, following below steps after install npm modules require
 
 1. Before using this README generator, make sure it has index.js, license.js and readmeFrame.js files. 
 2. Open terminal and cd into readme-generator folder. 
-3. application operate: 
+3. readme-generator operation: 
     >node index.js
 
 
@@ -42,8 +42,8 @@ Test URL: (https://drive.google.com/file/d/1akOKTh0E534pjUfsqhekEYeu-3W9DMXW/vie
 
 
 ## Questions
-If you have any questions or need any help, feel free to contact me here
-Github page: [Github](https://github.com/songhee95/)
+If you have any questions or need any help, feel free to contact me here <br>
+Github page: [Github](https://github.com/songhee95/) <br>
 Email: thdgml5537@gmail.com
 
 
