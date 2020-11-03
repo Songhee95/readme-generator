@@ -65,7 +65,8 @@ let resourceContent = value => {
     value.resource.map((link) => {
         links.push(`![GitHub Logo](${link}) <br>`);
     })
-    value.resource = links;
+    const result = links.join(" ");
+    value.resource = result;
 } 
 let licensePick = value => {
     if (value.license == 'Apache License'){

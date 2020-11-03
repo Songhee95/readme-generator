@@ -2,7 +2,7 @@
 # your project title
 
 ## Description
-describe your project
+describe your project 
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,32 +14,32 @@ describe your project
 * [License](#license)
 
 ## Installation
->list specific steps <br >Use br to line break
+>list specific step <br >use br to line break
 
 ## URLs
 1. Deployed URL: 
-https://your github Id.github.io/your project title/
+https://your github id.github.io/your project title/
 
 2. Github Page URL: 
-[Github](https://github.com/your github Id/your project title/)
+[Github](https://github.com/your github id/your project title/)
 
 
 ## Usage
-![GitHub Logo](image url1) <br>,![GitHub Logo]( image url2) <br>,![GitHub Logo]( image url3) <br>
+![GitHub Logo](image url1) <br> ![GitHub Logo]( image url2) <br> ![GitHub Logo]( image url3) <br>
 
 
 ## Contribution
-add some documentation on how to get started.
+
 
 
 ## Test
-you can add image or video links for how to run this project
+
 
 
 ## Questions
 If you have any questions or need any help, feel free to contact me here
-Github page: [Github](https://github.com/your github Id/)
-Email: your email
+Github page: [Github](https://github.com/your github id/)
+Email: 
 
 
 ## License
