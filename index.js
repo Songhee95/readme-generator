@@ -33,7 +33,7 @@ const userPrompt = inquirer.prompt([
     {
         type: 'input',
         name: 'resource',
-        message: 'Add resource links: '
+        message: 'Add resource images such as screenshot of project: '
     },
     {
         type: 'input',

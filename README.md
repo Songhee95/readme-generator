@@ -1,8 +1,8 @@
 
-# your project title
+# your project title (should be same as your project name in github)
 
 ## Description
-describe your project 
+describe your project so that people know what your project can do specifically.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,32 +14,32 @@ describe your project
 * [License](#license)
 
 ## Installation
->list specific step <br >use br to line break
+>list specific steps <br >use br to line break <br >list next steps
 
 ## URLs
 1. Deployed URL: 
-https://your github id.github.io/your project title/
+https://your github id.github.io/your project title (should be same as your project name in github)/
 
 2. Github Page URL: 
-[Github](https://github.com/your github id/your project title/)
+[Github](https://github.com/your github id/your project title (should be same as your project name in github)/)
 
 
 ## Usage
-![GitHub Logo](image url1) <br> ![GitHub Logo]( image url2) <br> ![GitHub Logo]( image url3) <br>
+![GitHub Logo](add image or video resource) <br> ![GitHub Logo]( url2) <br> ![GitHub Logo]( url3) <br>
 
 
 ## Contribution
-
+add some documentation on how to get started. If you want to make line breaks use <br>
 
 
 ## Test
-
+you can add images or video links for how to run this project. 
 
 
 ## Questions
 If you have any questions or need any help, feel free to contact me here
 Github page: [Github](https://github.com/your github id/)
-Email: 
+Email: your email address
 
 
 ## License
