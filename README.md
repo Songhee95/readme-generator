@@ -1,8 +1,7 @@
-
-# your project title (should be same as your project name in github)
+# readme-generator
 
 ## Description
-describe your project so that people know what your project can do specifically.
+README generator creates professional README.md file automatically. This is mainly for simplifying workflow. Spend your precious time to work on your project and avoid to waste your time to write README. 
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,36 +13,42 @@ describe your project so that people know what your project can do specifically.
 * [License](#license)
 
 ## Installation
->list specific steps <br >use br to line break <br >list next steps
+>npm install
+
 
 ## URLs
 1. Deployed URL: 
-https://your github id.github.io/your project title (should be same as your project name in github)/
+https://songhee95.github.io/readme-generator/
 
 2. Github Page URL: 
-[Github](https://github.com/your github id/your project title (should be same as your project name in github)/)
+[Github](https://github.com/songhee95/readme-generator/)
 
 
 ## Usage
-![GitHub Logo](image/url1) <br> ![GitHub Logo]( image/url2) <br> ![GitHub Logo]( image/url3) <br>
+![GitHub Logo]()
 
 
 ## Contribution
-add some documentation on how to get started.
+To use README generator, following below steps after install npm modules required.
+
+1. Before using this README generator, make sure it has index.js, license.js and readmeFrame.js files. 
+2. Open terminal and cd into readme-generator folder. 
+3. application operate: 
+    >node index.js
 
 
 ## Test
-you can add image or video inks for how to run this project.
+Test URL: (https://drive.google.com/file/d/1akOKTh0E534pjUfsqhekEYeu-3W9DMXW/view?usp=sharing)
 
 
 ## Questions
 If you have any questions or need any help, feel free to contact me here
-Github page: [Github](https://github.com/your github id/)
-Email: your email address
+Github page: [Github](https://github.com/songhee95/)
+Email: thdgml5537@gmail.com
 
 
 ## License
-Copyright (c) 2020 YOUR NAME
+Copyright (c) 2020 SONGHEE YIM
 
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
