@@ -1,8 +1,8 @@
 
-# 
+# your project title (should be same ase your project name in github)
 
 ## Description
-
+describe your project so that people know what your project can do specifically
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,49 +14,47 @@
 * [License](#license)
 
 ## Installation
-
+>list specific steps <br >use br to line break <br >list next steps 
 
 ## URLs
 1. Deployed URL: 
-https://.github.io//
+https://your github id.github.io/your project title (should be same ase your project name in github)/
 
 2. Github Page URL: 
-[Github](https://github.com///)
+[Github](https://github.com/your github id/your project title (should be same ase your project name in github)/)
 
 
 ## Usage
-![GitHub Logo](1) <br>
+![GitHub Logo]((https://drive.google.com/file/d/1GgO9qRgsRMGa6eHjp-4P4AF8xO4n9aFD/view?usp=sharing) <br> (https://drive.google.com/file/d/1GgO9qRgsRMGa6eHjp-4P4AF8xO4n9aFD/view?usp=sharing)) <br>
 
 
 ## Contribution
-
+add soome documentation on how to get started. If you want to make line breaks use <br>
 
 
 ## Test
-
+you can add image or video links for how to run this project (https://drive.google.com/file/d/1GgO9qRgsRMGa6eHjp-4P4AF8xO4n9aFD/view?usp=sharing)
 
 
 ## Questions
 If you have any questions or need any help, feel free to contact me here
-Github page: [Github](https://github.com//)
-Email: 
+Github page: [Github](https://github.com/your github id/)
+Email: your email address
 
 
 ## License
-Copyright (c) 2020 
+Copyright (c) 2020 YOUR NAME
 
- 
-[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
