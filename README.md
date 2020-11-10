@@ -17,10 +17,7 @@ README generator creates professional README.md file automatically. This is main
 
 
 ## URLs
-1. Deployed URL: 
-https://songhee95.github.io/readme-generator/
-
-2. Github Page URL: 
+1. Github Page URL: 
 [Github](https://github.com/songhee95/readme-generator/)
 
 
